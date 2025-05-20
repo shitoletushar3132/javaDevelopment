@@ -33,10 +33,35 @@ class Human{
     }
 }
 
+class DefaultValues {
+    int a;
+    boolean b;
+    long c;
+    short d;
+    char e;
+    float f;
+    double g;
+
+    public void printDefaults() {
+        System.out.println("int: " + a);
+        System.out.println("boolean: " + b);
+        System.out.println("long: " + c);
+        System.out.println("short: " + d);
+        System.out.println("char: [" + e + "]");
+        System.out.println("float: " + f);
+        System.out.println("double: " + g);
+    }
+}
+
 public class Encapsulation {
 
     public static void main(String args[])
     {
+       new DefaultValues().printDefaults();
+
+
+
+
         Human h1= new Human();
         h1.setAge(23);
         h1.setName("tushar");
