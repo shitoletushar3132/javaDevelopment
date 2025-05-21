@@ -8,5 +8,8 @@ public class Test3 {
 
     public static void main(String [] args){
         Test2.print("hello");
+        Test2 obj = new Test2();
+
+        Test2.print(obj.access);
     }
 }
