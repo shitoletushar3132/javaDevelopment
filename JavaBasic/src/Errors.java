@@ -21,8 +21,6 @@ public class Errors {
             System.out.println("Something went wrong "+ e);
         }
 
-
-
         System.out.println("by");
     }
 }
